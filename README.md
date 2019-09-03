@@ -10,5 +10,7 @@ Feature sets should be split into males and females and brain age can be estimat
 
 > brainAge_males <- predict(mdl_agepred_male, as.matrix(features_males))
 
+Please note that several publicly available samples have been used to train these models. Only data not used in model training should be used when estimating brain age using these models.
+
 ## Brain age genetics
 The summary statistics for a GWAS on brain age is available for download.
