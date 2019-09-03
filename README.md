@@ -7,6 +7,7 @@ We provide pre-trained xgboost models for estimating brain age from a set of 111
 
 Feature sets should be split into males and females and brain age can be estimated along the lines
 > brainAge_females <- predict(mdl_agepred_female, as.matrix(features_females))
+
 > brainAge_males <- predict(mdl_agepred_male, as.matrix(features_males))
 
 ## Brain age genetics
