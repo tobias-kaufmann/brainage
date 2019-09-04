@@ -14,4 +14,4 @@ Feature sets should be split into males and females and brain age can be estimat
 ! Note that several publicly available samples have been used to train these models. Only data not used in model training should be used when estimating brain age using these models !
 
 ## Brain age genetics
-The summary statistics for a GWAS on brain age will be made available for download shortly.
+The summary statistics for a GWAS on brain age has been split using 7-zip due to file size. Simply select all six file parts and extract them. This will create a single text file called "Brainage_GWAS_sumstat_final".
